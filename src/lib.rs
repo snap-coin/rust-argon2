@@ -75,15 +75,15 @@
 //! optimizations. Therefore, it is not the fastest implementation available.
 
 mod argon2;
-mod block;
+pub mod block;
 mod common;
-mod config;
-mod context;
-mod core;
+pub mod config;
+pub mod context;
+pub mod core;
 mod decoded;
 mod encoding;
 mod error;
-mod memory;
+pub mod memory;
 mod result;
 mod variant;
 mod version;
