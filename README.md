@@ -1,3 +1,6 @@
+## This is a direct fork from https://github.com/Ragnaroek/rust-argon2, to publish it on https://crates.io
+All credit goes to @Ragnaroek
+
 # Rust-argon2
 
 Rust library for hashing passwords using
